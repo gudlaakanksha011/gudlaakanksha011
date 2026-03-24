@@ -174,8 +174,14 @@
 <a href="https://github.com/gudlaakanksha011/Netflix_Content_Analysis_Using_Tableau">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=gudlaakanksha011&repo=Netflix_Content_Analysis_Using_Tableau&theme=radical" />
 </a>
+<a href="https://github.com/gudlaakanksha011/Adidas-Sales-Report-Dashboard">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gudlaakanksha011&repo=Adidas-Sales-Report-Dashboard&theme=radical" />
+</a>
 <a href="https://github.com/gudlaakanksha011/gudlaakanksha011">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=gudlaakanksha011&repo=gudlaakanksha011&theme=radical" />
+</a>
+<a href="https://github.com/gudlaakanksha011/Email-Campaign-Drivers-Data-using-A-B-testing-Excel-ETL-EDA-">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gudlaakanksha011&repo=Email-Campaign-Drivers-Data-using-A-B-testing-Excel-ETL-EDA-&theme=radical" />
 </a>
 </div>
 <!--END_PROJECTS-->
