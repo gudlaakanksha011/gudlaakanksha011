@@ -153,6 +153,11 @@
   <img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=gudlaakanksha011&theme=radical&background=0d1117&ring=00FFB3&fire=ff6b6b&currStreakLabel=00FFB3&border=00FFB3" />
 </div>
 
+## 🚀 Auto Updated Projects
+
+<!--START_PROJECTS-->
+<!--END_PROJECTS-->
+
 ---
 
 ## 🎯 What I'm Looking For
