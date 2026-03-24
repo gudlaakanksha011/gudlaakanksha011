@@ -93,16 +93,11 @@
 
 <table>
   <tr>
-    <td>
-      <h3 align="center">🛒 Smart Retail Analytics Recommendation Dashboard</h3>
-      <p align="center">
-       <a href="https://github.com/gudlaakanksha011/Smart-Retail-Analytics-Recommendation-Dashboard">
-         <img src="https://readme-typing-svg.demolab.com?color=00FFB3&center=true&vCenter=true&lines=Inventory+Intelligence+System;Sales+Analytics+Dashboard;AI+Driven+Recommendations" />
-       </a>
-      </p>
-      <p>End-to-end retail analytics system for inventory management, sales insights, and smart recommendations.</p>
-      <p><b>Tools:</b> ETL . Python · Pandas · EDA · Git . Streamlit . Dashboard </p>
-    </td>
+      <h3>🛍️ Smart Retail Analytics Recommendation Dashboard</h3>
+    <a href="https://github.com/gudlaakanksha011/Smart-Retail-Analytics-Recommendation-Dashboard">
+      <img src="https://img.shields.io/badge/View%20Project-00FFB3?style=for-the-badge&logo=streamlit&logoColor=black"/> </a> 
+    <p>End-to-end retail analytics system for inventory management, sales insights, and smart recommendations.</p> 
+    <p><b>Tools:</b> ETL · Python · Pandas · EDA · Git · Streamlit · Dashboard</p>
   </tr>
   <tr>
     <td width="50%">
