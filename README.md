@@ -92,7 +92,6 @@
 ## 📊 Featured Projects
 
 <table>
-    <tr>
       <td>
         <div style="max-width:600px; border:2px solid #00FFB3; border-radius:12px; padding:20px; background-color:#0d1117;"> 
           <h3>🛍️ Smart Retail Analytics Recommendation Dashboard</h3> 
@@ -105,7 +104,6 @@
           <p><b>Tools:</b> ETL · Python · Pandas · EDA · Git · Streamlit · Dashboard</p> 
         </div> 
       </td>
-    </tr>
     <td width="50%">
       <h3 align="center">🎬 Netflix Content Analysis</h3>
       <p align="center">
