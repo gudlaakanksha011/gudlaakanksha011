@@ -123,8 +123,6 @@
       <p>Deep-dive EDA transforming raw transactional data into a high-level visual narrative for a high-growth supermarket.</p>
       <p><b>Tools:</b> ETL · EDA · Dashboard</p>
     </td>
-  </tr>  
-  <tr>
     <td width="50%">
       <h3 align="center">👟 Adidas Sales Dashboard</h3>
       <p align="center">
