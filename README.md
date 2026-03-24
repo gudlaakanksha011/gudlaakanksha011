@@ -94,6 +94,16 @@
 <table>
   <tr>
     <td width="50%">
+      <h3 align="center">🛒 Smart Retail Analytics Recommendation Dashboard</h3>
+      <p align="center">
+       <a href="https://github.com/gudlaakanksha011/Smart-Retail-Analytics-Recommendation-Dashboard">
+         <img src="https://github-readme-stats.vercel.app/api/pin/?username=gudlaakanksha011&repo=Smart-Retail-Analytics-Recommendation-Dashboard&theme=radical" /
+       </a>
+      </p>
+      <p>Tableau dashboard uncovering content production patterns, genre distributions & release trends across Netflix's global catalog.</p>
+      <p><b>Tools:</b> Tableau · Data Visualization · EDA</p>
+    </td>
+    <td width="50%">
       <h3 align="center">🎬 Netflix Content Analysis</h3>
       <p align="center">
         <a href="https://github.com/gudlaakanksha011/Netflix_Content_Analysis_Using_Tableau">
@@ -153,9 +163,6 @@
   <img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=gudlaakanksha011&theme=radical&background=0d1117&ring=00FFB3&fire=ff6b6b&currStreakLabel=00FFB3&border=00FFB3" />
 </div>
 
-## 🚀 Auto Updated Projects
-
-<!--START_PROJECTS-->
 ## 🚀 Auto Updated Projects
 <div align="center">
 <a href="https://github.com/gudlaakanksha011/Smart-Retail-Analytics-Recommendation-Dashboard">
