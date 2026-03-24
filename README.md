@@ -93,19 +93,19 @@
 
 <table>
     <tr>
-      <td width="50%%" style="border:2px solid #00FFB3; border-radius:10px; padding:20px;">
-      <h3 align="center">🛍️ Smart Retail Analytics Recommendation Dashboard</h3>
-      <p align="center">
-        <a href="https://github.com/gudlaakanksha011/Smart_Retail_Analystics_Recommendation_Dashboard">
-         <img src="https://img.shields.io/badge/View%20Project-00FFB3?style=for-the-badge&logo=streamlit&logoColor=black"/>
-        </a>
-      </p>
-      <p align="center">End-to-end retail analytics system for inventory management, sales insights, and smart recommendations.</p>
-      <p align="center"><b>Tools:</b> ETL · Python · Pandas · EDA · Git · Streamlit · Dashboard</p>
-      </td>  
+      <td>
+        <div style="max-width:600px; border:2px solid #00FFB3; border-radius:12px; padding:20px; background-color:#0d1117;"> 
+          <h3>🛍️ Smart Retail Analytics Recommendation Dashboard</h3> 
+          <p> 
+            <a href="https://github.com/gudlaakanksha011/Smart-Retail-Analytics-Recommendation-Dashboard"> 
+              <img src="https://img.shields.io/badge/View%20Project-00FFB3?style=for-the-badge&logo=streamlit&logoColor=black"/> 
+            </a> 
+          </p> 
+          <p>End-to-end retail analytics system for inventory management, sales insights, and smart recommendations.</p> 
+          <p><b>Tools:</b> ETL · Python · Pandas · EDA · Git · Streamlit · Dashboard</p> 
+        </div> 
+      </td>
     </tr>
-    <td width="25%"></td>
-    <tr>
     <td width="50%">
       <h3 align="center">🎬 Netflix Content Analysis</h3>
       <p align="center">
