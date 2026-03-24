@@ -92,7 +92,7 @@
 ## 📊 Featured Projects
 
 <table>
-      <tr width =100%>
+    <tr>
         <td width="50%"> 
           <h3 align="center">🛍️ Smart Retail Analytics Recommendation Dashboard</h3> 
           <p align="center"> 
@@ -101,7 +101,6 @@
           </p> <p align="center">End-to-end retail analytics system for inventory management, sales insights, and smart recommendations.</p> 
           <p align="center"><b>Tools:</b> ETL · Python · Pandas · EDA · Git · Streamlit · Dashboard</p> 
         </td>
-      </tr>
     <td width="50%">
       <h3 align="center">🎬 Netflix Content Analysis</h3>
       <p align="center">
@@ -112,6 +111,8 @@
       <p>Tableau dashboard uncovering content production patterns, genre distributions & release trends across Netflix's global catalog.</p>
       <p><b>Tools:</b> Tableau · Data Visualization · EDA</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <h3 align="center">🛒 Supermarket Sales EDA</h3>
       <p align="center">
@@ -134,6 +135,8 @@
       <p>Interactive Excel dashboard for Adidas US Sales (2020–2021) — regional performance, profitability tracking using Pivot Tables & Slicers.</p>
       <p><b>Tools:</b> Excel · Pivot Tables · ETL</p>
     </td>
+    </tr>
+  <tr>
     <td width="50%">
       <h3 align="center">📧 Email Campaign A/B Testing</h3>
       <p align="center">
