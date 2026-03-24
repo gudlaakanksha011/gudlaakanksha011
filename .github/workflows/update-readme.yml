@@ -13,19 +13,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Fetch repos
+      - name: Fetch top repos
         run: |
           curl -s https://api.github.com/users/gudlaakanksha011/repos \
           | jq -r 'sort_by(.stargazers_count) | reverse | .[:5] | .[] | "- [" + .name + "](" + .html_url + ")"' > repos.txt
 
       - name: Update README
         run: |
-          echo "## 🚀 Auto Updated Projects" > projects.md
-          cat repos.txt >> projects.md
+          START="<!--START_PROJECTS-->"
+          END="<!--END_PROJECTS-->"
 
-          awk '/<!--START_PROJECTS-->/ {print; system("cat projects.md"); next} 
-               /<!--END_PROJECTS-->/ {skip=0} 
-               !skip' README.md > temp.md
+          awk -v start="$START" -v end="$END" '
+          $0 ~ start {print; system("cat repos.txt"); skip=1; next}
+          $0 ~ end {skip=0}
+          !skip
+          ' README.md > temp.md
 
           mv temp.md README.md
 
