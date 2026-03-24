@@ -92,7 +92,8 @@
 ## 📊 Featured Projects
 
 <table>
-    <tr width="50%%" style="border:2px solid #00FFB3; border-radius:10px; padding:20px;">
+    <tr>
+      <td width="50%%" style="border:2px solid #00FFB3; border-radius:10px; padding:20px;">
       <h3 align="center">🛍️ Smart Retail Analytics Recommendation Dashboard</h3>
       <p align="center">
         <a href="https://github.com/gudlaakanksha011/Smart_Retail_Analystics_Recommendation_Dashboard">
@@ -101,6 +102,7 @@
       </p>
       <p align="center">End-to-end retail analytics system for inventory management, sales insights, and smart recommendations.</p>
       <p align="center"><b>Tools:</b> ETL · Python · Pandas · EDA · Git · Streamlit · Dashboard</p>
+      </td>  
     </tr>
     <td width="25%"></td>
     <tr>
