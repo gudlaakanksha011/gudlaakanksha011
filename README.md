@@ -97,12 +97,14 @@
       <h3 align="center">🛒 Smart Retail Analytics Recommendation Dashboard</h3>
       <p align="center">
        <a href="https://github.com/gudlaakanksha011/Smart-Retail-Analytics-Recommendation-Dashboard">
-         <img src="https://github-readme-stats.vercel.app/api/pin/?username=gudlaakanksha011&repo=Smart-Retail-Analytics-Recommendation-Dashboard&theme=radical" /
+         <img src="https://img.shields.io/badge/View%20Project-00FFB3?style=for-the-badge&logo=streamlit&logoColor=black"/>
        </a>
       </p>
       <p>Tableau dashboard uncovering content production patterns, genre distributions & release trends across Netflix's global catalog.</p>
       <p><b>Tools:</b> Tableau · Data Visualization · EDA</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <h3 align="center">🎬 Netflix Content Analysis</h3>
       <p align="center">
