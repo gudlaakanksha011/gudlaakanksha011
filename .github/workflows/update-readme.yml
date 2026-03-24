@@ -1,0 +1,38 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch repos
+        run: |
+          curl -s https://api.github.com/users/gudlaakanksha011/repos \
+          | jq -r 'sort_by(.stargazers_count) | reverse | .[:5] | .[] | "- [" + .name + "](" + .html_url + ")"' > repos.txt
+
+      - name: Update README
+        run: |
+          echo "## 🚀 Auto Updated Projects" > projects.md
+          cat repos.txt >> projects.md
+
+          awk '/<!--START_PROJECTS-->/ {print; system("cat projects.md"); next} 
+               /<!--END_PROJECTS-->/ {skip=0} 
+               !skip' README.md > temp.md
+
+          mv temp.md README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Auto update README" || echo "No changes"
+          git push
