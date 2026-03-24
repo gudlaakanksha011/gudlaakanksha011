@@ -156,11 +156,21 @@
 ## 🚀 Auto Updated Projects
 
 <!--START_PROJECTS-->
-- [Smart-Retail-Analytics-Recommendation-Dashboard](https://github.com/gudlaakanksha011/Smart-Retail-Analytics-Recommendation-Dashboard)
-- [Sales_Dashboard-For-Supermarket-Using-EDA](https://github.com/gudlaakanksha011/Sales_Dashboard-For-Supermarket-Using-EDA)
-- [Netflix_Content_Analysis_Using_Tableau](https://github.com/gudlaakanksha011/Netflix_Content_Analysis_Using_Tableau)
-- [gudlaakanksha011](https://github.com/gudlaakanksha011/gudlaakanksha011)
-- [Email-Campaign-Drivers-Data-using-A-B-testing-Excel-ETL-EDA-](https://github.com/gudlaakanksha011/Email-Campaign-Drivers-Data-using-A-B-testing-Excel-ETL-EDA-)
+## 🚀 Auto Updated Projects
+<div align="center">
+<a href="https://github.com/gudlaakanksha011/Smart-Retail-Analytics-Recommendation-Dashboard">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gudlaakanksha011&repo=Smart-Retail-Analytics-Recommendation-Dashboard&theme=radical" />
+</a>
+<a href="https://github.com/gudlaakanksha011/Sales_Dashboard-For-Supermarket-Using-EDA">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gudlaakanksha011&repo=Sales_Dashboard-For-Supermarket-Using-EDA&theme=radical" />
+</a>
+<a href="https://github.com/gudlaakanksha011/Netflix_Content_Analysis_Using_Tableau">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gudlaakanksha011&repo=Netflix_Content_Analysis_Using_Tableau&theme=radical" />
+</a>
+<a href="https://github.com/gudlaakanksha011/gudlaakanksha011">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gudlaakanksha011&repo=gudlaakanksha011&theme=radical" />
+</a>
+</div>
 <!--END_PROJECTS-->
 
 ---
