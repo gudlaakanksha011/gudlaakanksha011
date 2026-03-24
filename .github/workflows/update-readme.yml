@@ -11,12 +11,25 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Fetch top repos
         run: |
           curl -s https://api.github.com/users/gudlaakanksha011/repos \
-          | jq -r 'sort_by(.stargazers_count) | reverse | .[:5] | .[] | "- [" + .name + "](" + .html_url + ")"' > repos.txt
+          | jq -r 'sort_by(.stargazers_count) | reverse | .[:4] | .[] | .name' > repos.txt
+
+      - name: Generate cards
+        run: |
+          echo "## 🚀 Auto Updated Projects" > projects.md
+          echo '<div align="center">' >> projects.md
+
+          while read repo; do
+            echo "<a href=\"https://github.com/gudlaakanksha011/$repo\">" >> projects.md
+            echo "<img src=\"https://github-readme-stats.vercel.app/api/pin/?username=gudlaakanksha011&repo=$repo&theme=radical\" />" >> projects.md
+            echo "</a>" >> projects.md
+          done < repos.txt
+
+          echo '</div>' >> projects.md
 
       - name: Update README
         run: |
@@ -24,7 +37,7 @@ jobs:
           END="<!--END_PROJECTS-->"
 
           awk -v start="$START" -v end="$END" '
-          $0 ~ start {print; system("cat repos.txt"); skip=1; next}
+          $0 ~ start {print; system("cat projects.md"); skip=1; next}
           $0 ~ end {skip=0}
           !skip
           ' README.md > temp.md
@@ -36,5 +49,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "Auto update README" || echo "No changes"
+          git commit -m "Auto update project cards" || echo "No changes"
           git push
