@@ -156,6 +156,11 @@
 ## 🚀 Auto Updated Projects
 
 <!--START_PROJECTS-->
+- [Smart-Retail-Analytics-Recommendation-Dashboard](https://github.com/gudlaakanksha011/Smart-Retail-Analytics-Recommendation-Dashboard)
+- [Sales_Dashboard-For-Supermarket-Using-EDA](https://github.com/gudlaakanksha011/Sales_Dashboard-For-Supermarket-Using-EDA)
+- [Netflix_Content_Analysis_Using_Tableau](https://github.com/gudlaakanksha011/Netflix_Content_Analysis_Using_Tableau)
+- [gudlaakanksha011](https://github.com/gudlaakanksha011/gudlaakanksha011)
+- [Email-Campaign-Drivers-Data-using-A-B-testing-Excel-ETL-EDA-](https://github.com/gudlaakanksha011/Email-Campaign-Drivers-Data-using-A-B-testing-Excel-ETL-EDA-)
 <!--END_PROJECTS-->
 
 ---
