@@ -92,7 +92,8 @@
 ## 📊 Featured Projects
 
 <table>
-        <td width="50%%" style="border:2px solid #00FFB3; background-color:#111827; border-radius:10px; padding:20px;"> 
+      <tr width =100%>
+        <td width="50%"> 
           <h3 align="center">🛍️ Smart Retail Analytics Recommendation Dashboard</h3> 
           <p align="center"> 
             <a href="https://github.com/gudlaakanksha011/Smart_Retail_Analystics_Recommendation_Dashboard"> 
@@ -100,6 +101,7 @@
           </p> <p align="center">End-to-end retail analytics system for inventory management, sales insights, and smart recommendations.</p> 
           <p align="center"><b>Tools:</b> ETL · Python · Pandas · EDA · Git · Streamlit · Dashboard</p> 
         </td>
+      </tr>
     <td width="50%">
       <h3 align="center">🎬 Netflix Content Analysis</h3>
       <p align="center">
